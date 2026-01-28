@@ -1,0 +1,24 @@
+# Build and Cache
+.gradle/
+**/build/
+bin/
+captures/
+
+# Local Config & Secrets
+local.properties
+.env
+.env.*
+
+# IDE - IntelliJ / Android Studio
+.idea/
+*.iml
+*.iws
+out/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Optional: If you use Keystores for signing your app
+*.jks
+*.keystore

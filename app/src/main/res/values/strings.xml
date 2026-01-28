@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SampleApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_screen">Home Screen</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+</resources>
