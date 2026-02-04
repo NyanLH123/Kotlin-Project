@@ -4,4 +4,10 @@
     <string name="home_screen">Home Screen</string>
     <string name="login">Login</string>
     <string name="register">Register</string>
+    <string name="pass_placeholder">Enter your password</string>
+    <string name="confirm_pass">Confirm your password</string>
+    <string name="email_placeholder">Enter your email</string>
+    <string name="login_google">Login with Google</string>
+    <string name="register_google">Register with Google</string>
+    <string name="register_facebook">Register with Facebook</string>
 </resources>

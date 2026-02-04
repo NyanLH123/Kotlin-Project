@@ -6,5 +6,6 @@
     <color name="limegreen">#C8F160</color>
     <color name="palelavender">#D7C8F3</color>
     <color name="mintgreen">#82D9A0</color>
-    <color name="lightgray">#F5F5F5</color>
+    <color name="lightgray">#F0F0F0</color>
+    <color name="blue">#4285F4</color>
 </resources>
