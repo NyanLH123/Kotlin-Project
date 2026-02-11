@@ -16,8 +16,8 @@
         android:padding="10dp">
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_width="342dp"
+            android:layout_height="210dp"
             android:src="@drawable/ic_launcher_foreground" />
     </LinearLayout>
 
@@ -37,16 +37,27 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/editLoginEmail"
+            android:id="@+id/editLoginUsername"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:ems="10"
-            android:inputType="textEmailAddress"
+            android:inputType="text"
             android:background="@drawable/edit_text_bg"
-            android:hint="@string/email_placeholder"
+            android:hint="@string/username_placeholder"
             android:padding="15sp"
             android:layout_marginBottom="15dp"
             />
+
+        <EditText
+            android:id="@+id/editLoginEmail"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="@string/email_placeholder"
+            android:inputType="textEmailAddress"
+            android:padding="15sp" />
 
         <EditText
             android:id="@+id/editLoginPassword"
