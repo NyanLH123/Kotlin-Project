@@ -1,5 +1,6 @@
 package com.example.sampleapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -45,7 +46,10 @@ class LoginFragment : Fragment() {
             val obj = JSONObject(res)
             val msg = obj.getString("message")
 
-            Toast.makeText(context, "$msg", Toast.LENGTH_LONG).show()
+            val intent = Intent(context, UserActivity::class.java)
+
+
+            Log.i("Login User", "***Hello, $email")
         }, {
             error ->
             Log.d("Login User", "***Login Error: $error")
